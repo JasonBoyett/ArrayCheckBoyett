@@ -16,15 +16,15 @@ public class RandomStuff {
         }
     }
 
-    public String getArryAsString(){//returns the random number array as a string
+    public String getArrayAsString(){//returns the random number array as a string
         String printThis = "List:\n";
-        for(int i = 0; i < randomArray.length; i++) {
-            printThis += randomArray[i] + "\n";
+        for(int randomArray: randomArray){
+            printThis += randomArray + "\n";
         }
         return printThis;
     }
-
-    public String getReveresedArryAsString(){//returns the reversed array as a string
+    
+    public String getReversedArrayAsString(){//returns the reversed array as a string
         String printThis = "Reversed:\n";
         for(int i = randomArray.length-1; i >= 0; i--) {
             printThis += randomArray[i] + "\n";
@@ -81,7 +81,7 @@ public class RandomStuff {
         return "The lowest element is " + low + " at index " + lowestIndex + "\n";
     }
 
-    public String getAverageAsString(){//returns a string contaning the average of the elements in the array
+    public String getAverageAsString(){//returns a string containing the average of the elements in the array
         double sum = 0;
         for(int i = 0; i <randomArray.length; i++) {
             sum += (double)randomArray[i];
