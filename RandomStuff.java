@@ -2,7 +2,7 @@
  * Jason Boyett - jaboye2448
  * CIT 4423 01
  * Oct 7, 2022
- * mac OS
+ * mac OS 12
  */
 public class RandomStuff {
     private int range = 100;
